@@ -1,0 +1,50 @@
+header.company{
+	background-image: url(header.jpg);
+	background-size: cover;
+	background-position: center;
+	height: 100%;
+}
+
+header hr {
+	margin-top: 80px;
+	margin-bottom: 10px;
+	border: solid;
+	color: black;
+	width: 100px;
+}
+
+header h1 {
+	font-size: 2rem;
+	margin-top: -50px;
+	margin-bottom: 50px;
+}
+
+body,
+html {
+  width: 100%;
+  height: 100%; 
+}
+
+.btn {
+	position: static;
+	border-radius: 300px;
+	background-color: #F05F43;
+  	border-color: #F05F44;
+  	margin-bottom: 30px;
+  }
+
+.btn-lg {
+	padding: 1rem 2rem;
+}
+
+.btn-primary:hover {
+	cursor: pointer;
+	background-color: black;
+	border-color: white;
+	border-width: 5px;
+}
+
+
+.faded {
+  color: white; 
+}
